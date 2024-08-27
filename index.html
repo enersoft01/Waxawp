@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waxawp</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.css" />
+
+</head>
+<body>
+    <header>
+        <h1>Waxawp</h1>
+       
+    </header>
+
+    <section id="subscription">
+        <h2>Souscription</h2>
+        <form id="subscription-form">
+            <label for="plan">Type d'abonnement :</label>
+            <select id="plan" name="plan">
+                <option value="weekly">Hebdomadaire</option>
+                <option value="monthly">Mensuel</option>
+                <option value="yearly">Annuel</option>
+            </select><br>
+            <button type="submit">Souscrire</button>
+        </form>
+        <div id="time-left"></div>
+    </section>
+
+    <section id="messaging">
+        <h2>Envoyer un message</h2>
+        <form id="message-form">
+            <label for="numbers">Numéros de téléphone (séparés par des virgules) :</label>
+            <p></p>
+            <textarea id="numbers" name="numbers" required></textarea><br>
+            <p> </p>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea><br>
+            <p></p>
+            <label for="file">Ajouter des fichiers (photo/vidéo) :</label>
+            <input type="file" id="file" name="file" multiple><br>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p style="text-align: center;">&copy; 2024 Waxawp</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+<footer>
+    <nav>
+        <ul>
+            <li><a href="#about">À propos de nous</a></li>
+            <p>Nous sommes LC GROUP multi Services. Disponibles pour les sevices en marketing  </p>
+            <p>digital, formations en informatiques et en music. </p>
+            <li><a href="#contact">Contact</a></li>
+            <p> LC GROUP Multi Services     +228 97 27 57 98</li>
+            <li><a href="mailto:enersoft@gmail.com"> Powered by EnerSoft</a></li>
+            <li><a href="mailto:alliesseiel8@gmail.com">alliesseil8@gmail.com(cliquez pour nous envoyer un message privés) </a></li>
+            
+        </ul>
+    </nav>
+
+</footer>
+</html>
