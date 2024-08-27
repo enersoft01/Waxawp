@@ -1,0 +1,82 @@
+* Réinitialiser les marges et les espacements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style général du corps */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Couleur de fond claire */
+    color: #333; /* Couleur du texte */
+    padding: 20px;
+}
+
+/* Styles du conteneur principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff; /* Couleur de fond du conteneur */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre portée */
+}
+
+/* Styles pour les en-têtes */
+h1 {
+    color: #4CAF50; /* Couleur verte */
+    text-align: center;
+}
+
+/* Styles pour les formulaires */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styles pour les labels */
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+/* Styles pour les champs de saisie */
+input[type="text"], textarea, select {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Styles pour les boutons */
+button {
+    background-color: #4CAF50; /* Couleur verte */
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Styles pour les boutons au survol */
+button:hover {
+    background-color: #45a049; /* Couleur verte plus foncée */
+}
+/* Image de fond pour le conteneur */
+.container {
+    background-image: url('background-image.jpg'); /* Remplace par le chemin vers ton image */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Ajouter un graphique dans le formulaire */
+.form-graphic {
+    background-image: url('graphic.png'); /* Remplace par le chemin vers ton graphique */
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px; /* Ajuster la taille */
+    margin: 20px 0;
+}
